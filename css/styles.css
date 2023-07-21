@@ -1,0 +1,226 @@
+:root {
+  --white: #ffffff;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+}
+body {
+  color: #434455;
+  background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+}
+
+/*____________ HEADER_____________ */
+.header {
+  color: var(--iris);
+}
+.header-nav {
+}
+.header-logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.web {
+  color: var(--navyblue);
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
+
+.link-pf:hover {
+  color: #ffffff;
+}
+.link-pf:focus {
+  color: #ffffff;
+}
+.list {
+  list-style-type: none;
+  list-style: none;
+}
+
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  color: var(--navyblue, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-adress {
+  font-style: normal;
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+.header-adress-link {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* _____________HERO_____________ */
+.hero {
+  background-color: var(--navyblue);
+}
+.hero-title {
+  background-color: var(--navyblue);
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  background-color: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+}
+
+.hero-btn-all {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+}
+.link-btn:hover {
+  background-color: #404bbf;
+}
+.link-btn:focus {
+  background-color: #404bbf;
+}
+
+/* _________ section 1____________*/
+.skils {
+}
+.skils-title {
+}
+.skils-list {
+}
+
+.skils-item {
+}
+.skils-item-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.skils-item-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* _________ section 2____________*/
+.servises {
+}
+.servises-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.servises-list {
+}
+.list {
+}
+.servises-item {
+}
+
+/* _________ section 3____________*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+.member-team-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.member-team-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* _________footer____________*/
+.footer {
+  background-color: var(--navyblue);
+}
+.footer-logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  background: var(--navyblue, #2e2f42);
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
