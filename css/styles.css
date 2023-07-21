@@ -1,3 +1,16 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 :root {
   --white: #ffffff;
   --navyblue: #2e2f42;
@@ -10,9 +23,34 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1440 px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
 /*____________ HEADER_____________ */
 .header {
   color: var(--iris);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav {
 }
@@ -77,8 +115,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.filters {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
 /* _____________HERO_____________ */
 .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: var(--navyblue);
 }
 .hero-title {
@@ -120,6 +164,8 @@ body {
 
 /* _________ section 1____________*/
 .skils {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .skils-title {
 }
@@ -165,6 +211,9 @@ body {
 
 /* _________ section 3____________*/
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 120px;
   background-color: #f4f4fd;
 }
 .team-title {
@@ -200,6 +249,8 @@ body {
 
 /* _________footer____________*/
 .footer {
+  padding-top: 140px;
+  padding-bottom: 100px;
   background-color: var(--navyblue);
 }
 .footer-logo {
@@ -223,4 +274,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.project-card-list list {
+  margin: 120px;
 }
