@@ -52,7 +52,17 @@ ol {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-left: 156px;
+  gap: 332px;
+}
 .header-nav {
+  display: flex;
+  align-items: center;
+  gap: 76px;
 }
 .header-logo {
   color: var(--iris);
@@ -63,6 +73,12 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 40px;
+  margin-right: auto;
 }
 
 .web {
@@ -103,8 +119,11 @@ ol {
 }
 .header-adress {
   font-style: normal;
+  margin-right: 156px;
 }
 .header-adress-list {
+  display: flex;
+  gap: 40px;
 }
 .header-adress-item {
 }
@@ -133,6 +152,9 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  margin-left: 472px;
 }
 .hero-btn {
   background-color: var(--iris, #4d5ae5);
@@ -143,6 +165,9 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04rem;
   cursor: pointer;
+  padding: 16px 32px;
+  margin-left: 636px;
+  margin-top: 48px;
 }
 
 .hero-btn-all {
@@ -166,13 +191,17 @@ ol {
 .skils {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-left: 156px;
 }
 .skils-title {
 }
 .skils-list {
+  display: flex;
+  gap: 24px;
 }
 
 .skils-item {
+  width: 264px;
 }
 .skils-item-title {
   color: var(--navyblue, #2e2f42);
