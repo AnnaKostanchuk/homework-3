@@ -94,7 +94,7 @@ img {
   margin-right: auto;
   padding: 24px 0;
 }
-
+ 
 .web {
   color: var(--navyblue);
 }
@@ -123,6 +123,7 @@ img {
 .header-menu-list {
 }
 .header-menu-item {
+  padding: 24px 0
 }
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
