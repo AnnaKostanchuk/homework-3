@@ -72,6 +72,8 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
+  
   
 }
 .header-logo {
@@ -92,7 +94,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: auto;
-  padding: 24px 0;
+
 }
  
 .web {
@@ -123,7 +125,7 @@ img {
 .header-menu-list {
 }
 .header-menu-item {
-  padding: 24px 0
+
 }
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
