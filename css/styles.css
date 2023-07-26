@@ -64,6 +64,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .header-nav {
   display: flex;
@@ -80,6 +81,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .header-menu-list {
@@ -148,6 +151,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+   margin-bottom: 72px
 }
 
 /* _____________HERO_____________ */
@@ -258,6 +262,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .servises-list {
   display: flex;
@@ -324,8 +329,7 @@ img {
 
 /* _________footer____________*/
 .footer {
-  padding-top: 140px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   background-color: var(--navyblue);
 }
 .footer-logo {
@@ -363,7 +367,7 @@ img {
 
 .project-card-item {
   width: calc((100% - 48px) / 3);
-}
+F}
 .portfolio-cards {
   padding-top: 96px;
   padding-bottom: 120px;
