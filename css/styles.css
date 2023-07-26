@@ -56,14 +56,13 @@ img {
   color: var(--iris);
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   margin-left: 156px;
-
-  border-bottom: 1px solid #e7e9fc;
   width: 1158px;
   margin: 0 auto;
 }
@@ -82,13 +81,13 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .header-menu-list {
   display: flex;
   gap: 40px;
   margin-right: auto;
+  padding: 24px 0;
 }
 
 .web {
@@ -187,6 +186,7 @@ img {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
 }
 
 .hero-btn-all {
@@ -199,12 +199,17 @@ img {
   letter-spacing: 0.04rem;
   cursor: pointer;
   width: ((100%- 4 * 24px) / 5);
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .link-btn:hover {
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .link-btn:focus {
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 /* _________ section 1____________*/
@@ -221,7 +226,7 @@ img {
 }
 
 .skils-item {
-  width: calc((100%- 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .skils-item-title {
   color: var(--navyblue, #2e2f42);
@@ -229,6 +234,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .skils-item-text {
@@ -241,6 +247,8 @@ img {
 
 /* _________ section 2____________*/
 .servises {
+  padding-bottom: 120px;
+  margin-left: 156px;
 }
 .servises-title {
   color: var(--navyblue, #2e2f42);
@@ -254,12 +262,11 @@ img {
 .servises-list {
   display: flex;
   gap: 24px;
-  margin-top: 76px;
 }
 .list {
 }
 .servises-item {
-  width: calc((100%- 2 * 24px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /* _________ section 3____________*/
@@ -277,6 +284,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
   background-color: #f4f4fd;
@@ -287,8 +295,13 @@ img {
 
 .team-item {
   background-color: #ffffff;
-  width: calc((100%- 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+.container-name {
+  padding: 32px 0;
+}
+
 .member-team-title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -297,6 +310,7 @@ img {
   letter-spacing: 0.02em;
   margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 .member-team-text {
   color: var(--slate, #434455);
@@ -305,6 +319,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
+  text-align: center;
 }
 
 /* _________footer____________*/
@@ -342,4 +357,20 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.project-card-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-cards {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.cards {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
