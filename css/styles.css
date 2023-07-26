@@ -45,29 +45,28 @@ img {
 }
 
 .container {
-  width: 100%;
-  max-width: 1158 px;
+  
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
 }
 /*____________ HEADER_____________ */
 .header {
-  color: var(--iris);
-  padding: 24px 0;
+  
    border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px
+  
+
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  margin-left: 156px;
-  width: 1158px;
-  margin: 0 auto;
-  border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
-   padding: 0 15px
+
+ 
+ 
+
+  
  
 }
 .header-nav {
@@ -84,9 +83,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
+  
 }
 
 .header-menu-list {
@@ -134,7 +132,7 @@ img {
 }
 .header-adress {
   font-style: normal;
-  margin-right: 156px;
+  margin: auto ;
 }
 .header-adress-list {
   display: flex;
@@ -337,7 +335,10 @@ img {
 .footer {
   padding: 100px 0;
   background-color: var(--navyblue);
+
 }
+.fut-logo{margin-bottom: 16px;}
+
 .footer-logo {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
