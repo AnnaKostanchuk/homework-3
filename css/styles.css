@@ -39,9 +39,14 @@ ol {
   margin-bottom: 0;
   margin-top: 0;
 }
+
+img {
+  display: block;
+}
+
 .container {
   width: 100%;
-  max-width: 1440 px;
+  max-width: 1158 px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
@@ -57,7 +62,10 @@ ol {
   display: flex;
   align-items: center;
   margin-left: 156px;
-  gap: 332px;
+
+  border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+  margin: 0 auto;
 }
 .header-nav {
   display: flex;
@@ -73,6 +81,8 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-menu-list {
@@ -137,7 +147,11 @@ ol {
 .filters {
   padding-top: 96px;
   padding-bottom: 72px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
+
 /* _____________HERO_____________ */
 .hero {
   padding-top: 188px;
@@ -155,6 +169,7 @@ ol {
   display: flex;
   align-items: center;
   margin-left: 472px;
+  max-width: 496px;
 }
 .hero-btn {
   background-color: var(--iris, #4d5ae5);
@@ -168,6 +183,10 @@ ol {
   padding: 16px 32px;
   margin-left: 636px;
   margin-top: 48px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .hero-btn-all {
@@ -179,6 +198,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04rem;
   cursor: pointer;
+  width: ((100%- 4 * 24px) / 5);
 }
 .link-btn:hover {
   background-color: #404bbf;
@@ -201,7 +221,7 @@ ol {
 }
 
 .skils-item {
-  width: 264px;
+  width: calc((100%- 3 * 24px) / 4);
 }
 .skils-item-title {
   color: var(--navyblue, #2e2f42);
@@ -232,10 +252,14 @@ ol {
   text-transform: capitalize;
 }
 .servises-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 76px;
 }
 .list {
 }
 .servises-item {
+  width: calc((100%- 2 * 24px) / 3);
 }
 
 /* _________ section 3____________*/
@@ -256,10 +280,14 @@ ol {
 }
 .team-list {
   background-color: #f4f4fd;
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
 }
 
 .team-item {
   background-color: #ffffff;
+  width: calc((100%- 3 * 24px) / 4);
 }
 .member-team-title {
   color: var(--navyblue, #2e2f42);
@@ -267,6 +295,8 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .member-team-text {
   color: var(--slate, #434455);
@@ -274,6 +304,7 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
 /* _________footer____________*/
@@ -291,6 +322,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 17.5px;
 }
 .studio {
   color: #f4f4fd;
@@ -303,7 +335,11 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
-.project-card-list list {
+.project-card-list {
   margin: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
